@@ -45,8 +45,7 @@ main = do
                     ,e1 + d2 + c3 + b3 + a3 == 38
                     ]
        putStrLn $ show results
-       let 
-       putStrLn $ show $ rotate60degrees $ head results
+       -- putStrLn $ show $ rotate60degrees $ head results
 
 -- Provides 12 possible solutions:
 -- [((3,17,18),(19,7,1,11),(16,2,5,6,9),(12,4,8,14),(10,13,15)),
